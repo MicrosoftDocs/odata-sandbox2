@@ -1,0 +1,55 @@
+### YamlMime:OData
+uid: Microsoft.Dynamics.CRM.AddAppComponents
+name: "AddAppComponents"
+type: action
+metadata:
+  title: "Microsoft Dynamics 365 Customer Engagement AddAppComponents Action Reference | MicrosoftDocs"
+  ms.date: "2017-09-21"
+  ms.service: "crm-online"
+  ms.topic: "reference"
+  applies_to:
+  - "Dynamics 365 (online)"
+  ms.assetid: 451d5c95-de1f-4f1c-a2b6-4e263c40b21b
+  author: "jimdaly"
+  ms.author: "jdaly"
+  manager: "jdaly"
+  meta-description: "Reference information about the Dynamics 365 Customer Engagement AddAppComponents Action."
+namespace: Microsoft.Dynamics.CRM
+# This Action has no description.
+owningsolution: Microsoft.Dynamics.CRM.System
+# This action has no bound entities.
+isbound: false
+parameters:
+  description: "Parameters allow for data to be passed to the action."
+  parameter_items:
+  - name: AppId
+    type: Edm.Guid
+    nullable: false
+    unicode: true
+    description: ""
+  - name: Components
+    type: Microsoft.Dynamics.CRM.crmbaseentity
+    nullable: false
+    unicode: true
+    description: ""
+# This action has no return value.
+hasreturnvalue: false
+entities:
+  description: "Use the AddAppComponents action with this entity type:"
+  entity_items:
+  - Microsoft.Dynamics.CRM.appmodule
+remarks: |
+  ## Remarks
+  There is something to say about this action.
+href_see_also:
+- text: "Use the Microsoft Dynamics CRM Web API"
+  href: "https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api"
+xref_see_also:
+- Microsoft.Dynamics.CRM.EntityTypeIndex
+- Microsoft.Dynamics.CRM.ActionIndex
+- Microsoft.Dynamics.CRM.FunctionIndex
+- Microsoft.Dynamics.CRM.QueryFunctionIndex
+- Microsoft.Dynamics.CRM.ComplexTypeIndex
+- Microsoft.Dynamics.CRM.EnumTypeIndex
+- Microsoft.Dynamics.CRM.MetadataEntityTypeIndex
+- Microsoft.Dynamics.CRM.SolutionIndex

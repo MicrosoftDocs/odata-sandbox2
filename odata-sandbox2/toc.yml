@@ -1,0 +1,8 @@
+items:
+- name: dynamics
+  items:
+    - name: Actions
+      uid: Microsoft.Dynamics.CRM.ActionIndex
+      items:
+      - name: AddAppComponents
+        uid: Microsoft.Dynamics.CRM.AddAppComponents

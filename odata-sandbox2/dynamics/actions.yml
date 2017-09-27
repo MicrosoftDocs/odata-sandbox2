@@ -1,0 +1,19 @@
+### YamlMime:ODataIndex
+uid: Microsoft.Dynamics.CRM.ActionIndex
+title: "Dynamics 365 Customer Engagement Web API Action Reference | MicrosoftDocs"
+metadata:
+  ms.date: "2017-09-21"
+  ms.service: "crm-online"
+  ms.topic: "reference"
+  applies_to:
+    - "Dynamics 365 (online)"
+  ms.assetid: 9d8c9441-fa96-49da-bacb-a9d7f2d6dfd8
+  author: "jimdaly"
+  ms.author: "jdaly"
+  manager: "jdaly"
+description: "Actions represent operations which may have observable side effects, such as creating or updating records. An Action may require parameters and may return a value. Actions may be bound to entity types."
+in_this_section:
+- Microsoft.Dynamics.CRM.AddAppComponents
+href_see_also:
+- text: "Use the Microsoft Dynamics CRM Web API"
+  href: "https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api"
