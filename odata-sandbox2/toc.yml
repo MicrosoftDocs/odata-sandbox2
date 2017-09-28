@@ -6,3 +6,7 @@ items:
       items:
       - name: AddAppComponents
         uid: Microsoft.Dynamics.CRM.AddAppComponents
+      - name: AddItemCampaign
+        uid: Microsoft.Dynamics.CRM.AddItemCampaign
+      - name: AddItemCampaignActivity
+        uid: Microsoft.Dynamics.CRM.AddItemCampaignActivity

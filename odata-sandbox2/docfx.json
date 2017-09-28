@@ -33,6 +33,10 @@
     "globalMetadata": {},
     "fileMetadata": {},
     "template": [],
-    "dest": "odata-sandbox2"
+    "dest": "odata-sandbox2",
+    "exportRawModel": "true",
+    "rawModelOutputFolder": "../raw",
+    "exportViewModel": "true",
+    "viewModelOutputFolder": "../viewmodel"
   }
 }

@@ -1,45 +1,49 @@
 ### YamlMime:OData
-uid: Microsoft.Dynamics.CRM.AddAppComponents
-name: "AddAppComponents"
+uid: Microsoft.Dynamics.CRM.AddItemCampaignActivity
+name: "AddItemCampaignActivity"
 type: action
 metadata:
-  title: "Microsoft Dynamics 365 Customer Engagement AddAppComponents Action Reference | MicrosoftDocs"
+  title: "Microsoft Dynamics 365 Customer Engagement AddItemCampaignActivity Action Reference | MicrosoftDocs"
   ms.date: "2017-09-21"
   ms.service: "crm-online"
   ms.topic: "reference"
   applies_to:
   - "Dynamics 365 (online)"
-  ms.assetid: 451d5c95-de1f-4f1c-a2b6-4e263c40b21b
+  ms.assetid: 46977068-c7ea-426a-9ece-37c4fae2b1ab
   author: "jimdaly"
   ms.author: "jdaly"
   manager: "jdaly"
-  meta-description: "Reference information about the Dynamics 365 Customer Engagement AddAppComponents Action."
+  meta-description: "Reference information about the Dynamics 365 Customer Engagement AddItemCampaignActivity Action."
 namespace: Microsoft.Dynamics.CRM
-# This Action has no description.
+header:
+  description: "Adds an item to a campaign activity. "
 owningsolution: Microsoft.Dynamics.CRM.System
 # This action has no bound entities.
 isbound: false
 parameters:
   description: "Parameters allow for data to be passed to the action."
   parameter_items:
-  - name: AppId
-    type: Edm.Guid
+  - name: CampaignActivity
+    type: Microsoft.Dynamics.CRM.campaignactivity
     nullable: false
     unicode: true
-    description: ""
-  - name: Components
+    description: "The campaign activity to add the item to. "
+  - name: Item
     type: Microsoft.Dynamics.CRM.crmbaseentity
     nullable: false
     unicode: true
-    description: ""
-# This action has no return value.
-hasreturnvalue: false
+    description: "The item to be added to the campaign activity. "
+return_type:
+  description: "The AddItemCampaignActivity action returns the following value."
+  iscollection: false
+  nullable: false
+  type: Microsoft.Dynamics.CRM.AddItemCampaignActivityResponse
 entities:
-  description: "Use the AddAppComponents action with this entity type:"
+  description: "Use the AddItemCampaignActivity action with the following entity types:"
   entity_items:
-  - Microsoft.Dynamics.CRM.appmodule
-remarks: |
-  There is something to say about this action.
+  - Microsoft.Dynamics.CRM.campaign
+  - Microsoft.Dynamics.CRM.campaignactivity
+# There are no remarks for this action.
 href_see_also:
 - text: "Use the Microsoft Dynamics CRM Web API"
   href: "https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api"
