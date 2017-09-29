@@ -1,0 +1,140 @@
+### YamlMime:OData
+uid: Microsoft.Dynamics.CRM.campaignitem
+name: "campaignitem"
+type: entitytype
+metadata:
+  title: "Microsoft Dynamics 365 Customer Engagement campaignitem EntityType Reference | MicrosoftDocs"
+  ms.date: "2017-09-21"
+  ms.service: "crm-online"
+  ms.topic: "reference"
+  applies_to:
+  - "Dynamics 365 (online)"
+  ms.assetid: a754bdbd-bb5b-41d4-89a7-148ef43913b7
+  author: "jimdaly"
+  ms.author: "jdaly"
+  manager: "jdaly"
+  meta-description: "Reference information about the Dynamics 365 Customer Engagement campaignitem entitytype."
+header:
+  description: "Work item in a campaign, a list or sales literature."
+  entity_set_path: "[organization URI]/api/data/v9.0/campaignitems"
+  base_type: Microsoft.Dynamics.CRM.crmbaseentity
+  display_name: Campaign Item
+  primary_key: campaignitemid
+  primary_name_attribute: name
+  operations_supported:
+  - POST
+  - GET
+  - DELETE
+namespace: Microsoft.Dynamics.CRM
+properties:
+  description: "Properties represent fields of data stored in the entity.Some properties are read-only."
+  property_items:
+    - name: campaignitemid
+      type: Edm.Guid
+      display_name: ""
+      description: "Unique identifier of the campaign item."
+      iscomputed: false
+      isreadonly: false
+    - name: entityid
+      type: Edm.Guid
+      display_name: ""
+      description: "Unique identifier of the entity for the campaign item."
+      iscomputed: false
+      isreadonly: false
+    - name: entitytype
+      type: Edm.String
+      display_name: ""
+      description: "Object type of entity for the campaign item."
+      iscomputed: false
+      isreadonly: false
+    - name: importsequencenumber
+      type: Edm.Int32
+      display_name: "Import Sequence Number"
+      description: "Sequence number of the import that created this record."
+      iscomputed: false
+      isreadonly: false
+    - name: name
+      type: Edm.String
+      display_name: "name"
+      description: "name"
+      iscomputed: false
+      isreadonly: false
+    - name: overriddencreatedon
+      type: Edm.DateTimeOffset
+      display_name: "Record Created On"
+      description: "Date and time that the record was migrated."
+      iscomputed: false
+      isreadonly: false
+    - name: owningbusinessunit
+      type: Edm.Guid
+      display_name: ""
+      description: "Unique identifier of the business unit that owns the campaign item."
+      iscomputed: false
+      isreadonly: true
+    - name: owninguser
+      type: Edm.Guid
+      display_name: ""
+      description: "Unique identifier of the user that owns the campaign item."
+      iscomputed: false
+      isreadonly: true
+    - name: timezoneruleversionnumber
+      type: Edm.Int32
+      display_name: "Time Zone Rule Version Number"
+      description: "For internal use only."
+      iscomputed: false
+      isreadonly: false
+    - name: utcconversiontimezonecode
+      type: Edm.Int32
+      display_name: "UTC Conversion Time Zone Code"
+      description: "Time zone code that was in use when the record was created."
+      iscomputed: false
+      isreadonly: false
+    - name: versionnumber
+      type: Edm.Int64
+      display_name: "Version Number"
+      description: "Version Number"
+      iscomputed: false
+      isreadonly: true
+lookup_properties:
+  description: "Lookup properties are read-only, computed properties which contain entity primary key Edm.Guid data for one or more corresponding single-valued navigation properties. More information: [Lookup properties](https://docs.microsoft.com/dynamics365/customer-engagement/developer/web-api-types-operations#lookup-properties) and [Retrieve data about lookup properties](https://docs.microsoft.com/dynamics365/customer-engagement/developer/query-data-web-api#retrieve-data-about-lookup-properties)."
+  property_items:
+  - name: _campaignid_value
+    description: "Unique identifier of the campaign that is associated with the individual item."
+  - name: _ownerid_value
+    description: "Unique identifier of the user or team who owns the campaign item."
+# This entity has no single-valued navigation properties
+collection_valued_navigation_properties:
+  description: "Collection-valued navigation properties represent collections of entities which may represent either a one-to-many (1:N) or many-to-many (N:N) relationship between the entities."
+  property_items:
+  - name: campaignitem_AsyncOperations
+    type: Microsoft.Dynamics.CRM.asyncoperation
+    partner: regardingobjectid_campaignitem
+  - name: campaignitem_BulkDeleteFailures
+    type: Microsoft.Dynamics.CRM.bulkdeletefailure
+    partner: regardingobjectid_campaignitem
+  - name: campaignitem_MailboxTrackingFolders
+    type: Microsoft.Dynamics.CRM.mailboxtrackingfolder
+    partner: regardingobjectid_campaignitem
+  - name: campaignitem_PrincipalObjectAttributeAccesses
+    type: Microsoft.Dynamics.CRM.principalobjectattributeaccess
+    partner: objectid_campaignitem
+# This entity has no derived entities.
+# This entity has no operations
+solutions:
+  description: "The following solutions include the campaignitem entity type."
+  solution_items:
+  - Microsoft.Dynamics.CRM.msdynce_MarketingSales
+  - Microsoft.Dynamics.CRM.msdynce_Marketing
+# There are no remarks for this entity.
+href_see_also:
+- text: "Use the Microsoft Dynamics CRM Web API"
+  href: "https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api"
+xref_see_also:
+- Microsoft.Dynamics.CRM.EntityTypeIndex
+- Microsoft.Dynamics.CRM.ActionIndex
+- Microsoft.Dynamics.CRM.FunctionIndex
+- Microsoft.Dynamics.CRM.QueryFunctionIndex
+- Microsoft.Dynamics.CRM.ComplexTypeIndex
+- Microsoft.Dynamics.CRM.EnumTypeIndex
+- Microsoft.Dynamics.CRM.MetadataEntityTypeIndex
+- Microsoft.Dynamics.CRM.SolutionIndex

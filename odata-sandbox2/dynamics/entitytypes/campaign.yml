@@ -1,0 +1,555 @@
+### YamlMime:OData
+uid: Microsoft.Dynamics.CRM.campaign
+name: "campaign"
+type: entitytype
+metadata:
+  title: "Microsoft Dynamics 365 Customer Engagement campaign EntityType Reference | MicrosoftDocs"
+  ms.date: "2017-09-21"
+  ms.service: "crm-online"
+  ms.topic: "reference"
+  applies_to:
+  - "Dynamics 365 (online)"
+  ms.assetid: 67c619c2-d6da-4f7a-83fa-c8bed8c69427
+  author: "jimdaly"
+  ms.author: "jdaly"
+  manager: "jdaly"
+  meta-description: "Reference information about the Dynamics 365 Customer Engagement campaign entitytype."
+header:
+  description: "Container for campaign activities and responses, sales literature, products, and lists to create, plan, execute, and track the results of a specific marketing campaign through its life."
+  entity_set_path: "[organization URI]/api/data/v9.0/campaigns"
+  base_type: Microsoft.Dynamics.CRM.crmbaseentity
+  display_name: Campaign
+  primary_key: campaignid
+  primary_name_attribute: name
+  operations_supported:
+  - POST
+  - GET
+  - PATCH
+  - DELETE
+namespace: Microsoft.Dynamics.CRM
+properties:
+  description: "Properties represent fields of data stored in the entity.Some properties are read-only."
+  property_items:
+    - name: actualend
+      type: Edm.DateTimeOffset
+      display_name: "Actual End Date"
+      description: "Enter the date when the campaign was closed or completed."
+      iscomputed: false
+      isreadonly: false
+    - name: actualstart
+      type: Edm.DateTimeOffset
+      display_name: "Actual Start Date"
+      description: "Enter the actual start date and time for the campaign."
+      iscomputed: false
+      isreadonly: false
+    - name: budgetedcost
+      type: Edm.Decimal
+      display_name: "Budget Allocated"
+      description: "Type the amount budgeted for the campaign to define a limit for how much you can spend."
+      iscomputed: false
+      isreadonly: false
+    - name: budgetedcost_base
+      type: Edm.Decimal
+      display_name: "Budget Allocated (Base)"
+      description: "Value of the Budget Allocated in base currency."
+      iscomputed: false
+      isreadonly: true
+    - name: campaignid
+      type: Edm.Guid
+      display_name: "Campaign"
+      description: "Unique identifier of the campaign."
+      iscomputed: false
+      isreadonly: false
+    - name: codename
+      type: Edm.String
+      display_name: "Campaign Code"
+      description: "Type a number or other tracking code to identify the campaign. If no value is entered, a code will be generated automatically."
+      iscomputed: false
+      isreadonly: false
+    - name: createdon
+      type: Edm.DateTimeOffset
+      display_name: "Created On"
+      description: "Date and time when the record was created."
+      iscomputed: false
+      isreadonly: true
+    - name: description
+      type: Edm.String
+      display_name: "Description"
+      description: "Type additional information to describe the campaign, such as the products or services offered or the targeted audience."
+      iscomputed: false
+      isreadonly: false
+    - name: emailaddress
+      type: Edm.String
+      display_name: "Email Address"
+      description: "The primary email address for the entity."
+      iscomputed: false
+      isreadonly: false
+    - name: entityimage
+      type: Edm.Binary
+      display_name: "Entity Image"
+      description: "The default image for the entity."
+      iscomputed: false
+      isreadonly: false
+    - name: entityimage_timestamp
+      type: Edm.Int64
+      display_name: ""
+      description: ""
+      iscomputed: false
+      isreadonly: true
+    - name: entityimage_url
+      type: Edm.String
+      display_name: ""
+      description: ""
+      iscomputed: false
+      isreadonly: true
+    - name: entityimageid
+      type: Edm.Guid
+      display_name: ""
+      description: ""
+      iscomputed: false
+      isreadonly: true
+    - name: exchangerate
+      type: Edm.Decimal
+      display_name: "Exchange Rate"
+      description: "Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency."
+      iscomputed: false
+      isreadonly: true
+    - name: expectedresponse
+      type: Edm.Int32
+      display_name: "Expected Response Percentage"
+      description: "Type the expected response rate for the campaign as a full number between 0 and 100."
+      iscomputed: false
+      isreadonly: false
+    - name: expectedrevenue
+      type: Edm.Decimal
+      display_name: "Estimated Revenue"
+      description: "Type the expected revenue for the campaign for return on investment projections and post-campaign reporting."
+      iscomputed: false
+      isreadonly: false
+    - name: expectedrevenue_base
+      type: Edm.Decimal
+      display_name: "Estimated Revenue (Base)"
+      description: "Value of the Estimated Revenue in base currency."
+      iscomputed: false
+      isreadonly: true
+    - name: importsequencenumber
+      type: Edm.Int32
+      display_name: "Import Sequence Number"
+      description: "Sequence number of the import that created this record."
+      iscomputed: false
+      isreadonly: false
+    - name: istemplate
+      type: Edm.Boolean
+      display_name: "Template"
+      description: "Select whether the campaign is a template that can be copied when you create future campaigns."
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 1
+          label: "Yes"
+        - value: 0
+          label: "No"
+    - name: message
+      type: Edm.String
+      display_name: "Message"
+      description: "Type the promotional message or marketing copy for the campaign."
+      iscomputed: false
+      isreadonly: false
+    - name: modifiedon
+      type: Edm.DateTimeOffset
+      display_name: "Modified On"
+      description: "Date and time when the record was modified."
+      iscomputed: false
+      isreadonly: true
+    - name: name
+      type: Edm.String
+      display_name: "Name"
+      description: "Type a name for the campaign so that it is identified correctly in lists."
+      iscomputed: false
+      isreadonly: false
+    - name: objective
+      type: Edm.String
+      display_name: "Offer"
+      description: "Type the objective of the campaign, including products, services, discounts, and pricing."
+      iscomputed: false
+      isreadonly: false
+    - name: othercost
+      type: Edm.Decimal
+      display_name: "Miscellaneous Costs"
+      description: "Type the sum of any miscellaneous campaign costs not included in the campaign activities to make sure the actual cost of the campaign is calculated correctly."
+      iscomputed: false
+      isreadonly: false
+    - name: othercost_base
+      type: Edm.Decimal
+      display_name: "Miscellaneous Costs (Base)"
+      description: "Value of the Miscellaneous Costs in base currency."
+      iscomputed: false
+      isreadonly: true
+    - name: overriddencreatedon
+      type: Edm.DateTimeOffset
+      display_name: "Record Created On"
+      description: "Date and time that the record was migrated."
+      iscomputed: false
+      isreadonly: false
+    - name: processid
+      type: Edm.Guid
+      display_name: "Process Id"
+      description: "Contains the id of the process associated with the entity."
+      iscomputed: false
+      isreadonly: false
+    - name: promotioncodename
+      type: Edm.String
+      display_name: "Promotion Code"
+      description: "Type a promotional code to track sales related to the campaign or allow customers to redeem a discount offer."
+      iscomputed: false
+      isreadonly: false
+    - name: proposedend
+      type: Edm.DateTimeOffset
+      display_name: "Proposed End Date"
+      description: "Enter the date when the campaign is scheduled to end."
+      iscomputed: false
+      isreadonly: false
+    - name: proposedstart
+      type: Edm.DateTimeOffset
+      display_name: "Proposed Start Date"
+      description: "Enter the date when the campaign is scheduled to start."
+      iscomputed: false
+      isreadonly: false
+    - name: stageid
+      type: Edm.Guid
+      display_name: "Stage Id"
+      description: "Contains the id of the stage where the entity is located."
+      iscomputed: false
+      isreadonly: false
+    - name: statecode
+      type: Edm.Int32
+      display_name: "Status"
+      description: "Shows the status of the campaign. By default, campaigns are active and can't be deactivated."
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 0
+          label: "Active"
+        - value: 1
+          label: "Inactive"
+    - name: statuscode
+      type: Edm.Int32
+      display_name: "Status Reason"
+      description: "Select the campaign's status."
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 0
+          label: "Proposed"
+        - value: 1
+          label: "Ready To Launch"
+        - value: 2
+          label: "Launched"
+        - value: 3
+          label: "Completed"
+        - value: 4
+          label: "Canceled"
+        - value: 5
+          label: "Suspended"
+        - value: 6
+          label: "Inactive"
+    - name: timezoneruleversionnumber
+      type: Edm.Int32
+      display_name: "Time Zone Rule Version Number"
+      description: "For internal use only."
+      iscomputed: false
+      isreadonly: false
+    - name: totalactualcost
+      type: Edm.Decimal
+      display_name: "Total Cost of Campaign"
+      description: "Shows the sum of the amounts entered in the Total Cost of Campaign Activities and Miscellaneous Costs fields."
+      iscomputed: false
+      isreadonly: true
+    - name: totalactualcost_base
+      type: Edm.Decimal
+      display_name: "Total Cost of Campaign (Base)"
+      description: "Value of the Total Cost of Campaign in base currency."
+      iscomputed: false
+      isreadonly: true
+    - name: totalcampaignactivityactualcost
+      type: Edm.Decimal
+      display_name: "Total Cost of Campaign Activities"
+      description: "Shows the sum of the values entered in the Actual Cost field on all campaign activities related to the campaign."
+      iscomputed: false
+      isreadonly: true
+    - name: totalcampaignactivityactualcost_base
+      type: Edm.Decimal
+      display_name: "Total Cost of Campaign Activities (Base)"
+      description: "Value of the Total Cost of Campaign Activities in base currency."
+      iscomputed: false
+      isreadonly: true
+    - name: traversedpath
+      type: Edm.String
+      display_name: "Traversed Path"
+      description: "A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur."
+      iscomputed: false
+      isreadonly: false
+    - name: typecode
+      type: Edm.Int32
+      display_name: "Campaign Type"
+      description: "Select the type of the campaign."
+      iscomputed: false
+      isreadonly: false
+      options:
+        - value: 1
+          label: "Advertisement"
+        - value: 2
+          label: "Direct Marketing"
+        - value: 3
+          label: "Event"
+        - value: 4
+          label: "Co-branding"
+        - value: 5
+          label: "Other"
+    - name: utcconversiontimezonecode
+      type: Edm.Int32
+      display_name: "UTC Conversion Time Zone Code"
+      description: "Time zone code that was in use when the record was created."
+      iscomputed: false
+      isreadonly: false
+    - name: versionnumber
+      type: Edm.Int64
+      display_name: "Version Number"
+      description: "Version Number"
+      iscomputed: false
+      isreadonly: true
+lookup_properties:
+  description: "Lookup properties are read-only, computed properties which contain entity primary key Edm.Guid data for one or more corresponding single-valued navigation properties. More information: [Lookup properties](https://docs.microsoft.com/dynamics365/customer-engagement/developer/web-api-types-operations#lookup-properties) and [Retrieve data about lookup properties](https://docs.microsoft.com/dynamics365/customer-engagement/developer/query-data-web-api#retrieve-data-about-lookup-properties)."
+  property_items:
+  - name: _createdby_value
+    single_valued_navigation_property:
+    - createdby
+    description: "Shows who created the record."
+  - name: _createdonbehalfby_value
+    single_valued_navigation_property:
+    - createdonbehalfby
+    description: "Shows who created the record on behalf of another user."
+  - name: _modifiedby_value
+    single_valued_navigation_property:
+    - modifiedby
+    description: "Shows who last updated the record."
+  - name: _modifiedonbehalfby_value
+    single_valued_navigation_property:
+    - modifiedonbehalfby
+    description: "Shows who created the record on behalf of another user."
+  - name: _ownerid_value
+    single_valued_navigation_property:
+    - ownerid
+    description: "Owner Id"
+  - name: _owningbusinessunit_value
+    single_valued_navigation_property:
+    - owningbusinessunit
+    description: "Unique identifier for the business unit that owns the record"
+  - name: _owningteam_value
+    single_valued_navigation_property:
+    - owningteam
+    description: "Unique identifier for the team that owns the record."
+  - name: _owninguser_value
+    single_valued_navigation_property:
+    - owninguser
+    description: "Unique identifier for the user that owns the record."
+  - name: _pricelistid_value
+    single_valued_navigation_property:
+    - pricelistid
+    description: "Choose the price list associated with this item to make sure the products associated with the campaign are offered at the correct prices."
+  - name: _transactioncurrencyid_value
+    single_valued_navigation_property:
+    - transactioncurrencyid
+    description: "Choose the local currency for the record to make sure budgets are reported in the correct currency."
+single_valued_navigation_properties:
+  description: "Single-valued navigation properties represent lookup fields where a single entity can be referenced. Each single-valued navigation property has a corresponding partner collection-valued navigation property on the related entity."
+  property_items:
+  - name: createdby
+    type: Microsoft.Dynamics.CRM.systemuser
+    partner: lk_campaign_createdby
+  - name: createdonbehalfby
+    type: Microsoft.Dynamics.CRM.systemuser
+    partner: lk_campaign_createdonbehalfby
+  - name: modifiedby
+    type: Microsoft.Dynamics.CRM.systemuser
+    partner: lk_campaign_modifiedby
+  - name: modifiedonbehalfby
+    type: Microsoft.Dynamics.CRM.systemuser
+    partner: lk_campaign_modifiedonbehalfby
+  - name: ownerid
+    type: Microsoft.Dynamics.CRM.principal
+    partner: owner_campaigns
+  - name: owningbusinessunit
+    type: Microsoft.Dynamics.CRM.businessunit
+    partner: BusinessUnit_Campaigns
+  - name: owningteam
+    type: Microsoft.Dynamics.CRM.team
+    partner: team_Campaigns
+  - name: owninguser
+    type: Microsoft.Dynamics.CRM.systemuser
+    partner: SystemUser_Campaigns
+  - name: pricelistid
+    type: Microsoft.Dynamics.CRM.pricelevel
+    partner: PriceList_Campaigns
+  - name: stageid_processstage
+    type: Microsoft.Dynamics.CRM.processstage
+    partner: processstage_campaigns
+  - name: transactioncurrencyid
+    type: Microsoft.Dynamics.CRM.transactioncurrency
+    partner: transactioncurrency_campaign
+collection_valued_navigation_properties:
+  description: "Collection-valued navigation properties represent collections of entities which may represent either a one-to-many (1:N) or many-to-many (N:N) relationship between the entities."
+  property_items:
+  - name: campaign_activity_parties
+    type: Microsoft.Dynamics.CRM.activityparty
+    partner: partyid_campaign
+  - name: Campaign_ActivityPointers
+    type: Microsoft.Dynamics.CRM.activitypointer
+    partner: regardingobjectid_campaign
+  - name: Campaign_Annotation
+    type: Microsoft.Dynamics.CRM.annotation
+    partner: objectid_campaign
+  - name: Campaign_Appointments
+    type: Microsoft.Dynamics.CRM.appointment
+    partner: regardingobjectid_campaign_appointment
+  - name: Campaign_AsyncOperations
+    type: Microsoft.Dynamics.CRM.asyncoperation
+    partner: regardingobjectid_campaign
+  - name: Campaign_BulkDeleteFailures
+    type: Microsoft.Dynamics.CRM.bulkdeletefailure
+    partner: regardingobjectid_campaign
+  - name: Campaign_CampaignActivities
+    type: Microsoft.Dynamics.CRM.campaignactivity
+    partner: regardingobjectid_campaign_campaignactivity
+  - name: Campaign_CampaignResponses
+    type: Microsoft.Dynamics.CRM.campaignresponse
+    partner: regardingobjectid_campaign_campaignresponse
+  - name: campaign_connections1
+    type: Microsoft.Dynamics.CRM.connection
+    partner: record1id_campaign
+  - name: campaign_connections2
+    type: Microsoft.Dynamics.CRM.connection
+    partner: record2id_campaign
+  - name: Campaign_DuplicateBaseRecord
+    type: Microsoft.Dynamics.CRM.duplicaterecord
+    partner: baserecordid_campaign
+  - name: Campaign_DuplicateMatchingRecord
+    type: Microsoft.Dynamics.CRM.duplicaterecord
+    partner: duplicaterecordid_campaign
+  - name: Campaign_Emails
+    type: Microsoft.Dynamics.CRM.email
+    partner: regardingobjectid_campaign_email
+  - name: Campaign_Faxes
+    type: Microsoft.Dynamics.CRM.fax
+    partner: regardingobjectid_campaign_fax
+  - name: campaign_IncidentResolutions
+    type: Microsoft.Dynamics.CRM.incidentresolution
+    partner: regardingobjectid_campaign_incidentresolution
+  - name: campaign_leads
+    type: Microsoft.Dynamics.CRM.lead
+    partner: campaignid
+  - name: Campaign_Letters
+    type: Microsoft.Dynamics.CRM.letter
+    partner: regardingobjectid_campaign_letter
+  - name: Campaign_MailboxTrackingFolder
+    type: Microsoft.Dynamics.CRM.mailboxtrackingfolder
+    partner: regardingobjectid_campaign
+  - name: campaign_opportunities
+    type: Microsoft.Dynamics.CRM.opportunity
+    partner: campaignid
+  - name: campaign_OpportunityCloses
+    type: Microsoft.Dynamics.CRM.opportunityclose
+    partner: regardingobjectid_campaign_opportunityclose
+  - name: campaign_OrderCloses
+    type: Microsoft.Dynamics.CRM.orderclose
+    partner: regardingobjectid_campaign_orderclose
+  - name: campaign_orders
+    type: Microsoft.Dynamics.CRM.salesorder
+    partner: campaignid
+  - name: Campaign_Phonecalls
+    type: Microsoft.Dynamics.CRM.phonecall
+    partner: regardingobjectid_campaign_phonecall
+  - name: campaign_principalobjectattributeaccess
+    type: Microsoft.Dynamics.CRM.principalobjectattributeaccess
+    partner: objectid_campaign
+  - name: Campaign_ProcessSessions
+    type: Microsoft.Dynamics.CRM.processsession
+    partner: regardingobjectid_campaign
+  - name: campaign_QuoteCloses
+    type: Microsoft.Dynamics.CRM.quoteclose
+    partner: regardingobjectid_campaign_quoteclose
+  - name: campaign_quotes
+    type: Microsoft.Dynamics.CRM.quote
+    partner: campaignid
+  - name: Campaign_RecurringAppointmentMasters
+    type: Microsoft.Dynamics.CRM.recurringappointmentmaster
+    partner: regardingobjectid_campaign_recurringappointmentmaster
+  - name: Campaign_ServiceAppointments
+    type: Microsoft.Dynamics.CRM.serviceappointment
+    partner: regardingobjectid_campaign_serviceappointment
+  - name: campaign_SocialActivities
+    type: Microsoft.Dynamics.CRM.socialactivity
+    partner: regardingobjectid_campaign_socialactivity
+  - name: Campaign_SyncErrors
+    type: Microsoft.Dynamics.CRM.syncerror
+    partner: regardingobjectid_campaign_syncerror
+  - name: Campaign_Tasks
+    type: Microsoft.Dynamics.CRM.task
+    partner: regardingobjectid_campaign_task
+  - name: campaigncampaign_association
+    type: Microsoft.Dynamics.CRM.campaign
+    partner: campaigncampaign_association_referenced
+  - name: campaigncampaign_association_referenced
+    type: Microsoft.Dynamics.CRM.campaign
+    partner: campaigncampaign_association
+  - name: campaignlist_association
+    type: Microsoft.Dynamics.CRM.list
+    partner: campaignlist_association
+  - name: campaignproduct_association
+    type: Microsoft.Dynamics.CRM.product
+    partner: campaignproduct_association
+  - name: campaignsalesliterature_association
+    type: Microsoft.Dynamics.CRM.salesliterature
+    partner: campaignsalesliterature_association
+# This entity has no derived entities.
+operations:
+  description: "The following operations can be used with the campaign entity type."
+  operation_items:
+  - name: Microsoft.Dynamics.CRM.AddItemCampaign
+    binding_type: "Entity"
+  - name: Microsoft.Dynamics.CRM.AddItemCampaignActivity
+    binding_type: "Not Bound"
+  - name: Microsoft.Dynamics.CRM.CopyCampaign
+    binding_type: "Entity"
+  - name: Microsoft.Dynamics.CRM.GrantAccess
+    binding_type: "Not Bound"
+  - name: Microsoft.Dynamics.CRM.ModifyAccess
+    binding_type: "Not Bound"
+  - name: Microsoft.Dynamics.CRM.RemoveItemCampaign
+    binding_type: "Entity"
+  - name: Microsoft.Dynamics.CRM.RemoveItemCampaignActivity
+    binding_type: "Not Bound"
+  - name: Microsoft.Dynamics.CRM.RetrievePrincipalAccess
+    binding_type: "Not Bound"
+  - name: Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess
+    binding_type: "Not Bound"
+  - name: Microsoft.Dynamics.CRM.RevokeAccess
+    binding_type: "Not Bound"
+solutions:
+  description: "The following solutions include the campaign entity type."
+  solution_items:
+  - Microsoft.Dynamics.CRM.msdynce_MarketingSales
+  - Microsoft.Dynamics.CRM.msdynce_Marketing
+# There are no remarks for this entity.
+href_see_also:
+- text: "Use the Microsoft Dynamics CRM Web API"
+  href: "https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api"
+xref_see_also:
+- Microsoft.Dynamics.CRM.EntityTypeIndex
+- Microsoft.Dynamics.CRM.ActionIndex
+- Microsoft.Dynamics.CRM.FunctionIndex
+- Microsoft.Dynamics.CRM.QueryFunctionIndex
+- Microsoft.Dynamics.CRM.ComplexTypeIndex
+- Microsoft.Dynamics.CRM.EnumTypeIndex
+- Microsoft.Dynamics.CRM.MetadataEntityTypeIndex
+- Microsoft.Dynamics.CRM.SolutionIndex

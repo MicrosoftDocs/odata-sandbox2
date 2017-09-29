@@ -1,6 +1,13 @@
 items:
 - name: dynamics
   items:
+    - name: Entities
+      uid: Microsoft.Dynamics.CRM.EntityTypeIndex
+      items:
+      - name: campaign
+        uid: Microsoft.Dynamics.CRM.campaign
+      - name: campaignitem
+        uid: Microsoft.Dynamics.CRM.campaignitem
     - name: Actions
       uid: Microsoft.Dynamics.CRM.ActionIndex
       items:
