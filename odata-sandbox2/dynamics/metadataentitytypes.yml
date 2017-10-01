@@ -1,0 +1,57 @@
+### YamlMime:ODataIndex
+uid: Microsoft.Dynamics.CRM.MetadataEntityTypeIndex
+title: "Dynamics 365 Customer Engagement Web API Metadata EntityType Reference | MicrosoftDocs"
+metadata:
+  ms.date: "2017-09-21"
+  ms.service: "crm-online"
+  ms.topic: "reference"
+  applies_to:
+    - "Dynamics 365 (online)"
+  ms.assetid: b83784fd-5b59-46ba-82c6-4254e45dba02
+  author: "jimdaly"
+  ms.author: "jdaly"
+  manager: "jdaly"
+description: "Metadata entity types represent the types used in the Microsoft Dynamics CRM metadata model. See [Use the Web API with CRM metadata](https://msdn.microsoft.com/library/mt607833.aspx) for information about how to use these entity types. "
+in_this_section:
+- Microsoft.Dynamics.CRM.AttributeMetadata
+- Microsoft.Dynamics.CRM.BigIntAttributeMetadata
+- Microsoft.Dynamics.CRM.BooleanAttributeMetadata
+- Microsoft.Dynamics.CRM.BooleanOptionSetMetadata
+- Microsoft.Dynamics.CRM.crmmodelbaseentity
+- Microsoft.Dynamics.CRM.DateTimeAttributeMetadata
+- Microsoft.Dynamics.CRM.DecimalAttributeMetadata
+- Microsoft.Dynamics.CRM.DoubleAttributeMetadata
+- Microsoft.Dynamics.CRM.EntityKeyMetadata
+- Microsoft.Dynamics.CRM.EntityMetadata
+- Microsoft.Dynamics.CRM.EntityNameAttributeMetadata
+- Microsoft.Dynamics.CRM.EnumAttributeMetadata
+- Microsoft.Dynamics.CRM.ImageAttributeMetadata
+- Microsoft.Dynamics.CRM.IntegerAttributeMetadata
+- Microsoft.Dynamics.CRM.LookupAttributeMetadata
+- Microsoft.Dynamics.CRM.ManagedPropertyAttributeMetadata
+- Microsoft.Dynamics.CRM.ManagedPropertyMetadata
+- Microsoft.Dynamics.CRM.ManyToManyRelationshipMetadata
+- Microsoft.Dynamics.CRM.MemoAttributeMetadata
+- Microsoft.Dynamics.CRM.MetadataBase
+- Microsoft.Dynamics.CRM.MoneyAttributeMetadata
+- Microsoft.Dynamics.CRM.MultiSelectPicklistAttributeMetadata
+- Microsoft.Dynamics.CRM.OneToManyRelationshipMetadata
+- Microsoft.Dynamics.CRM.OptionSetMetadata
+- Microsoft.Dynamics.CRM.OptionSetMetadataBase
+- Microsoft.Dynamics.CRM.PicklistAttributeMetadata
+- Microsoft.Dynamics.CRM.RelationshipMetadataBase
+- Microsoft.Dynamics.CRM.StateAttributeMetadata
+- Microsoft.Dynamics.CRM.StatusAttributeMetadata
+- Microsoft.Dynamics.CRM.StringAttributeMetadata
+- Microsoft.Dynamics.CRM.UniqueIdentifierAttributeMetadata
+href_see_also:
+- text: "Use the Microsoft Dynamics CRM Web API"
+  href: "https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api"
+xref_see_also:
+- Microsoft.Dynamics.CRM.EntityTypeIndex
+- Microsoft.Dynamics.CRM.ActionIndex
+- Microsoft.Dynamics.CRM.FunctionIndex
+- Microsoft.Dynamics.CRM.QueryFunctionIndex
+- Microsoft.Dynamics.CRM.ComplexTypeIndex
+- Microsoft.Dynamics.CRM.EnumTypeIndex
+- Microsoft.Dynamics.CRM.SolutionIndex

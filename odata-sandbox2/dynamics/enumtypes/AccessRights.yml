@@ -1,0 +1,69 @@
+### YamlMime:OData
+uid: Microsoft.Dynamics.CRM.AccessRights
+name: "AccessRights"
+type: enumtype
+metadata:
+  title: "Microsoft Dynamics 365 Customer Engagement AccessRights EnumType Reference | MicrosoftDocs"
+  ms.date: "2017-09-21"
+  ms.service: "crm-online"
+  ms.topic: "reference"
+  applies_to:
+    - "Dynamics 365 (online)"
+  ms.assetid: fa89ce9c-fd73-4504-b938-afac5fc39546
+  author: "jimdaly"
+  ms.author: "jdaly"
+  manager: "jdaly"
+  meta-description: "Reference information about the Dynamics 365 Customer Engagement Web API AccessRights ComplexType."
+namespace: Microsoft.Dynamics.CRM
+description: "Contains the possible access rights for a user. "
+members:
+  description: "Members define the discrete options for the enumeration type."
+  member_items:
+  - description: "No access. "
+    name: "None"
+    value: 0
+  - description: "The right to read the specified type of record. "
+    name: "ReadAccess"
+    value: 1
+  - description: "The right to update the specified record. "
+    name: "WriteAccess"
+    value: 2
+  - description: "The right to append the specified record to another object. "
+    name: "AppendAccess"
+    value: 4
+  - description: "The right to append another record to the specified object. "
+    name: "AppendToAccess"
+    value: 16
+  - description: "The right to create a record. "
+    name: "CreateAccess"
+    value: 32
+  - description: "The right to delete the specified record. "
+    name: "DeleteAccess"
+    value: 65536
+  - description: "The right to share the specified record. "
+    name: "ShareAccess"
+    value: 262144
+  - description: "The right to assign the specified record to another user or team. "
+    name: "AssignAccess"
+    value: 524288
+usedby:
+  description: "The following use the AccessRights EnumType."
+  usedby_items:
+  - name: Microsoft.Dynamics.CRM.RetrievePrincipalAccessResponse
+    used_as: Property
+  - name: Microsoft.Dynamics.CRM.PrincipalAccess
+    used_as: Property
+remarks: |
+  These are some remarks I want to add for the AccessRights enumeration.
+href_see_also:
+- text: "Use the Microsoft Dynamics CRM Web API"
+  href: "https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api"
+xref_see_also:
+- Microsoft.Dynamics.CRM.EntityTypeIndex
+- Microsoft.Dynamics.CRM.ActionIndex
+- Microsoft.Dynamics.CRM.FunctionIndex
+- Microsoft.Dynamics.CRM.QueryFunctionIndex
+- Microsoft.Dynamics.CRM.ComplexTypeIndex
+- Microsoft.Dynamics.CRM.EnumTypeIndex
+- Microsoft.Dynamics.CRM.MetadataEntityTypeIndex
+- Microsoft.Dynamics.CRM.SolutionIndex

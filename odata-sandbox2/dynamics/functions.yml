@@ -1,0 +1,126 @@
+### YamlMime:ODataIndex
+uid: Microsoft.Dynamics.CRM.FunctionIndex
+title: "Dynamics 365 Customer Engagement Web API Function Reference | MicrosoftDocs"
+metadata:
+  ms.date: "2017-09-21"
+  ms.service: "crm-online"
+  ms.topic: "reference"
+  applies_to:
+    - "Dynamics 365 (online)"
+  ms.assetid: ab719434-7c3c-4bc3-8fee-bb14335d3f9d
+  author: "jimdaly"
+  ms.author: "jdaly"
+  manager: "jdaly"
+description: "A function is an operation which does not have observable side effects. They typically retrieve data. They may have parameters and they may return values. Functions may be bound to entity types."
+in_this_section:
+- Microsoft.Dynamics.CRM.CalculateRollupField
+- Microsoft.Dynamics.CRM.CalculateTotalTimeIncident
+- Microsoft.Dynamics.CRM.CheckIncomingEmail
+- Microsoft.Dynamics.CRM.CheckPromoteEmail
+- Microsoft.Dynamics.CRM.DownloadReportDefinition
+- Microsoft.Dynamics.CRM.ExpandCalendar
+- Microsoft.Dynamics.CRM.ExportFieldTranslation
+- Microsoft.Dynamics.CRM.FetchXmlToQueryExpression
+- Microsoft.Dynamics.CRM.FindParentResourceGroup
+- Microsoft.Dynamics.CRM.FormatAddress
+- Microsoft.Dynamics.CRM.GetAllTimeZonesWithDisplayName
+- Microsoft.Dynamics.CRM.GetDefaultPriceLevel
+- Microsoft.Dynamics.CRM.GetDistinctValuesImportFile
+- Microsoft.Dynamics.CRM.GetHeaderColumnsImportFile
+- Microsoft.Dynamics.CRM.GetQuantityDecimal
+- Microsoft.Dynamics.CRM.GetReportHistoryLimit
+- Microsoft.Dynamics.CRM.GetTimeZoneCodeByLocalizedName
+- Microsoft.Dynamics.CRM.GetValidManyToMany
+- Microsoft.Dynamics.CRM.GetValidReferencedEntities
+- Microsoft.Dynamics.CRM.GetValidReferencingEntities
+- Microsoft.Dynamics.CRM.IncrementKnowledgeArticleViewCount
+- Microsoft.Dynamics.CRM.InitializeFrom
+- Microsoft.Dynamics.CRM.IsComponentCustomizable
+- Microsoft.Dynamics.CRM.IsDataEncryptionActive
+- Microsoft.Dynamics.CRM.IsValidStateTransition
+- Microsoft.Dynamics.CRM.QueryMultipleSchedules
+- Microsoft.Dynamics.CRM.QuerySchedule
+- Microsoft.Dynamics.CRM.RetrieveAbsoluteAndSiteCollectionUrl
+- Microsoft.Dynamics.CRM.RetrieveActivePath
+- Microsoft.Dynamics.CRM.RetrieveAllChildUsersSystemUser
+- Microsoft.Dynamics.CRM.RetrieveAllEntities
+- Microsoft.Dynamics.CRM.RetrieveAppComponents
+- Microsoft.Dynamics.CRM.RetrieveApplicationRibbon
+- Microsoft.Dynamics.CRM.RetrieveAttributeChangeHistory
+- Microsoft.Dynamics.CRM.RetrieveAuditDetails
+- Microsoft.Dynamics.CRM.RetrieveAuditPartitionList
+- Microsoft.Dynamics.CRM.RetrieveAvailableLanguages
+- Microsoft.Dynamics.CRM.RetrieveBusinessHierarchyBusinessUnit
+- Microsoft.Dynamics.CRM.RetrieveByGroupResource
+- Microsoft.Dynamics.CRM.RetrieveByResourceResourceGroup
+- Microsoft.Dynamics.CRM.RetrieveByResourcesService
+- Microsoft.Dynamics.CRM.RetrieveByTopIncidentProductKbArticle
+- Microsoft.Dynamics.CRM.RetrieveByTopIncidentSubjectKbArticle
+- Microsoft.Dynamics.CRM.RetrieveCurrentOrganization
+- Microsoft.Dynamics.CRM.RetrieveDataEncryptionKey
+- Microsoft.Dynamics.CRM.RetrieveDependenciesForDelete
+- Microsoft.Dynamics.CRM.RetrieveDependenciesForUninstall
+- Microsoft.Dynamics.CRM.RetrieveDependentComponents
+- Microsoft.Dynamics.CRM.RetrieveDeploymentLicenseType
+- Microsoft.Dynamics.CRM.RetrieveDeprovisionedLanguages
+- Microsoft.Dynamics.CRM.RetrieveDuplicates
+- Microsoft.Dynamics.CRM.RetrieveEntity
+- Microsoft.Dynamics.CRM.RetrieveEntityRibbon
+- Microsoft.Dynamics.CRM.RetrieveExchangeAppointments
+- Microsoft.Dynamics.CRM.RetrieveExchangeRate
+- Microsoft.Dynamics.CRM.RetrieveFilteredForms
+- Microsoft.Dynamics.CRM.RetrieveFormattedImportJobResults
+- Microsoft.Dynamics.CRM.RetrieveInstalledLanguagePacks
+- Microsoft.Dynamics.CRM.RetrieveInstalledLanguagePackVersion
+- Microsoft.Dynamics.CRM.RetrieveLicenseInfo
+- Microsoft.Dynamics.CRM.RetrieveLocLabels
+- Microsoft.Dynamics.CRM.RetrieveMailboxTrackingFolders
+- Microsoft.Dynamics.CRM.RetrieveMembersBulkOperation
+- Microsoft.Dynamics.CRM.RetrieveMetadataChanges
+- Microsoft.Dynamics.CRM.RetrieveMissingComponents
+- Microsoft.Dynamics.CRM.RetrieveMissingDependencies
+- Microsoft.Dynamics.CRM.RetrieveOrganizationResources
+- Microsoft.Dynamics.CRM.RetrieveParentGroupsResourceGroup
+- Microsoft.Dynamics.CRM.RetrieveParsedDataImportFile
+- Microsoft.Dynamics.CRM.RetrievePersonalWall
+- Microsoft.Dynamics.CRM.RetrievePrincipalAccess
+- Microsoft.Dynamics.CRM.RetrievePrincipalAttributePrivileges
+- Microsoft.Dynamics.CRM.RetrievePrincipalSyncAttributeMappings
+- Microsoft.Dynamics.CRM.RetrievePrivilegeSet
+- Microsoft.Dynamics.CRM.RetrieveProcessInstances
+- Microsoft.Dynamics.CRM.RetrieveProductProperties
+- Microsoft.Dynamics.CRM.RetrieveProvisionedLanguagePackVersion
+- Microsoft.Dynamics.CRM.RetrieveProvisionedLanguages
+- Microsoft.Dynamics.CRM.RetrieveRecordChangeHistory
+- Microsoft.Dynamics.CRM.RetrieveRecordWall
+- Microsoft.Dynamics.CRM.RetrieveRequiredComponents
+- Microsoft.Dynamics.CRM.RetrieveRolePrivilegesRole
+- Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess
+- Microsoft.Dynamics.CRM.RetrieveSubGroupsResourceGroup
+- Microsoft.Dynamics.CRM.RetrieveTeamPrivileges
+- Microsoft.Dynamics.CRM.RetrieveTimestamp
+- Microsoft.Dynamics.CRM.RetrieveTotalRecordCount
+- Microsoft.Dynamics.CRM.RetrieveUnpublished
+- Microsoft.Dynamics.CRM.RetrieveUnpublishedMultiple
+- Microsoft.Dynamics.CRM.RetrieveUserPrivileges
+- Microsoft.Dynamics.CRM.RetrieveUserQueues
+- Microsoft.Dynamics.CRM.RetrieveVersion
+- Microsoft.Dynamics.CRM.Rollup
+- Microsoft.Dynamics.CRM.Search
+- Microsoft.Dynamics.CRM.SearchByBodyKbArticle
+- Microsoft.Dynamics.CRM.SearchByKeywordsKbArticle
+- Microsoft.Dynamics.CRM.SearchByTitleKbArticle
+- Microsoft.Dynamics.CRM.ValidateApp
+- Microsoft.Dynamics.CRM.ValidateRecurrenceRule
+- Microsoft.Dynamics.CRM.WhoAmI
+href_see_also:
+- text: "Use the Microsoft Dynamics CRM Web API"
+  href: "https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api"
+xref_see_also:
+- Microsoft.Dynamics.CRM.EntityTypeIndex
+- Microsoft.Dynamics.CRM.ActionIndex
+- Microsoft.Dynamics.CRM.QueryFunctionIndex
+- Microsoft.Dynamics.CRM.ComplexTypeIndex
+- Microsoft.Dynamics.CRM.EnumTypeIndex
+- Microsoft.Dynamics.CRM.MetadataEntityTypeIndex
+- Microsoft.Dynamics.CRM.SolutionIndex

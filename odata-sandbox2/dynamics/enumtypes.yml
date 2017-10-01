@@ -1,0 +1,67 @@
+### YamlMime:ODataIndex
+uid: Microsoft.Dynamics.CRM.EnumTypeIndex
+title: "Dynamics 365 Customer Engagement Web API EnumType Reference | MicrosoftDocs"
+metadata:
+  ms.date: "2017-09-21"
+  ms.service: "crm-online"
+  ms.topic: "reference"
+  applies_to:
+    - "Dynamics 365 (online)"
+  ms.assetid: ed96bb52-43bc-4b4c-a7e2-f47969238bf5
+  author: "jimdaly"
+  ms.author: "jdaly"
+  manager: "jdaly"
+description: "An EnumType represents an enumeration type in an OData v4 entity model. "
+in_this_section:
+- Microsoft.Dynamics.CRM.AccessRights
+- Microsoft.Dynamics.CRM.AssociatedMenuBehavior
+- Microsoft.Dynamics.CRM.AssociatedMenuGroup
+- Microsoft.Dynamics.CRM.AttributeRequiredLevel
+- Microsoft.Dynamics.CRM.AttributeTypeCode
+- Microsoft.Dynamics.CRM.BusinessNotificationParameterType
+- Microsoft.Dynamics.CRM.BusinessNotificationSeverity
+- Microsoft.Dynamics.CRM.CascadeType
+- Microsoft.Dynamics.CRM.ConditionOperator
+- Microsoft.Dynamics.CRM.DateTimeFormat
+- Microsoft.Dynamics.CRM.DeletedMetadataFilters
+- Microsoft.Dynamics.CRM.EndpointAccessType
+- Microsoft.Dynamics.CRM.EndpointType
+- Microsoft.Dynamics.CRM.EntityFilters
+- Microsoft.Dynamics.CRM.EntityKeyIndexStatus
+- Microsoft.Dynamics.CRM.ErrorType
+- Microsoft.Dynamics.CRM.ImeMode
+- Microsoft.Dynamics.CRM.IntegerFormat
+- Microsoft.Dynamics.CRM.JoinOperator
+- Microsoft.Dynamics.CRM.LogicalOperator
+- Microsoft.Dynamics.CRM.LookupFormat
+- Microsoft.Dynamics.CRM.ManagedPropertyEvaluationPriority
+- Microsoft.Dynamics.CRM.ManagedPropertyOperation
+- Microsoft.Dynamics.CRM.ManagedPropertyType
+- Microsoft.Dynamics.CRM.MetadataConditionOperator
+- Microsoft.Dynamics.CRM.OptionSetType
+- Microsoft.Dynamics.CRM.OrderType
+- Microsoft.Dynamics.CRM.OrganizationState
+- Microsoft.Dynamics.CRM.OwnershipTypes
+- Microsoft.Dynamics.CRM.PrivilegeDepth
+- Microsoft.Dynamics.CRM.PrivilegeType
+- Microsoft.Dynamics.CRM.PropagationOwnershipOptions
+- Microsoft.Dynamics.CRM.RelationshipType
+- Microsoft.Dynamics.CRM.RibbonLocationFilters
+- Microsoft.Dynamics.CRM.RollupType
+- Microsoft.Dynamics.CRM.SearchDirection
+- Microsoft.Dynamics.CRM.SecurityTypes
+- Microsoft.Dynamics.CRM.StringFormat
+- Microsoft.Dynamics.CRM.SubCode
+- Microsoft.Dynamics.CRM.TargetFieldType
+- Microsoft.Dynamics.CRM.TimeCode
+href_see_also:
+- text: "Use the Microsoft Dynamics CRM Web API"
+  href: "https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api"
+xref_see_also:
+- Microsoft.Dynamics.CRM.EntityTypeIndex
+- Microsoft.Dynamics.CRM.ActionIndex
+- Microsoft.Dynamics.CRM.FunctionIndex
+- Microsoft.Dynamics.CRM.QueryFunctionIndex
+- Microsoft.Dynamics.CRM.ComplexTypeIndex
+- Microsoft.Dynamics.CRM.MetadataEntityTypeIndex
+- Microsoft.Dynamics.CRM.SolutionIndex

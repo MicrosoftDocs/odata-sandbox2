@@ -1,0 +1,202 @@
+### YamlMime:OData
+uid: Microsoft.Dynamics.CRM.AttributeMetadata
+name: "AttributeMetadata"
+type: metadataentitytype
+metadata:
+  title: "Microsoft Dynamics 365 Customer Engagement AttributeMetadata Metadata EntityType Reference | MicrosoftDocs"
+  ms.date: "2017-09-21"
+  ms.service: "crm-online"
+  ms.topic: "reference"
+  applies_to:
+  - "Dynamics 365 (online)"
+  ms.assetid: 418c8a27-99ca-45d6-9a12-2e43e5364f2e
+  author: "jimdaly"
+  ms.author: "jdaly"
+  manager: "jdaly"
+  meta-description: "Reference information about the Dynamics 365 Customer Engagement AttributeMetadata metadata entitytype."
+header:
+  description: "Contains all the metadata for an entity attribute."
+  base_type: Microsoft.Dynamics.CRM.MetadataBase
+  operations_supported:
+  - GET
+  - PUT
+  - DELETE
+namespace: Microsoft.Dynamics.CRM
+properties:
+  description: "Properties represent fields of data stored in the entity."
+  property_items:
+  - name: AttributeOf
+    type: Edm.String
+    description: "The name of the attribute that this attribute extends."
+  - name: AttributeType
+    type: Microsoft.Dynamics.CRM.AttributeTypeCode
+    description: "The type for the attribute."
+  - name: AttributeTypeName
+    type: Microsoft.Dynamics.CRM.AttributeTypeDisplayName
+    description: "The name of the type for the attribute."
+  - name: AutoNumberFormat
+    type: Edm.String
+    description: ""
+  - name: CanBeSecuredForCreate
+    type: Edm.Boolean
+    description: "Whether field-level security can be applied to prevent a user from adding data to this attribute. "
+  - name: CanBeSecuredForRead
+    type: Edm.Boolean
+    description: "Whether field-level security can be applied to prevent a user from viewing data from this attribute."
+  - name: CanBeSecuredForUpdate
+    type: Edm.Boolean
+    description: "Whether field-level security can be applied to prevent a user from updating data for this attribute."
+  - name: CanModifyAdditionalSettings
+    type: Microsoft.Dynamics.CRM.BooleanManagedProperty
+    description: "Whether any settings not controlled by managed properties can be changed."
+  - name: ColumnNumber
+    type: Edm.Int32
+    description: "An organization-specific ID for the attribute used for auditing."
+  - name: DeprecatedVersion
+    type: Edm.String
+    description: "The Microsoft Dynamics 365 version that the attribute was deprecated in."
+  - name: Description
+    type: Microsoft.Dynamics.CRM.Label
+    description: "The label containing the description for the attribute."
+  - name: DisplayName
+    type: Microsoft.Dynamics.CRM.Label
+    description: "A label containing the display name for the attribute."
+  - name: EntityLogicalName
+    type: Edm.String
+    description: "The logical name of the entity that contains the attribute."
+  - name: ExternalName
+    type: Edm.String
+    description: ""
+  - name: HasChanged
+    type: Edm.Boolean
+    inherited_from: Microsoft.Dynamics.CRM.MetadataBase
+    description: "Indicates whether the item of metadata has changed."
+  - name: InheritsFrom
+    type: Edm.String
+    description: "For internal use only."
+  - name: IntroducedVersion
+    type: Edm.String
+    description: "A string identifying the solution version that the solution component was added in."
+  - name: IsAuditEnabled
+    type: Microsoft.Dynamics.CRM.BooleanManagedProperty
+    description: "Whether the attribute is enabled for auditing."
+  - name: IsCustomAttribute
+    type: Edm.Boolean
+    description: "Whether the attribute is a custom attribute."
+  - name: IsCustomizable
+    type: Microsoft.Dynamics.CRM.BooleanManagedProperty
+    description: "Whether the attribute allows customization."
+  - name: IsDataSourceSecret
+    type: Edm.Boolean
+    description: ""
+  - name: IsFilterable
+    type: Edm.Boolean
+    description: "For internal use only."
+  - name: IsGlobalFilterEnabled
+    type: Microsoft.Dynamics.CRM.BooleanManagedProperty
+    description: "For internal use only."
+  - name: IsLogical
+    type: Edm.Boolean
+    description: "Whether the attribute is a logical attribute."
+  - name: IsManaged
+    type: Edm.Boolean
+    description: "Whether the attribute is part of a managed solution."
+  - name: IsPrimaryId
+    type: Edm.Boolean
+    description: "Whether the attribute represents the unique identifier for the record."
+  - name: IsPrimaryName
+    type: Edm.Boolean
+    description: "Whether the attribute represents the primary attribute for the entity."
+  - name: IsRenameable
+    type: Microsoft.Dynamics.CRM.BooleanManagedProperty
+    description: "Whether the attribute display name can be changed."
+  - name: IsRequiredForForm
+    type: Edm.Boolean
+    description: ""
+  - name: IsRetrievable
+    type: Edm.Boolean
+    description: "For internal use only."
+  - name: IsSearchable
+    type: Edm.Boolean
+    description: "For internal use only."
+  - name: IsSecured
+    type: Edm.Boolean
+    description: "Whether the attribute is secured for field-level security."
+  - name: IsSortableEnabled
+    type: Microsoft.Dynamics.CRM.BooleanManagedProperty
+    description: "For internal use only."
+  - name: IsValidForAdvancedFind
+    type: Microsoft.Dynamics.CRM.BooleanManagedProperty
+    description: "Whether the attribute appears in Advanced Find."
+  - name: IsValidForCreate
+    type: Edm.Boolean
+    description: "Whether the value can be set when a record is created."
+  - name: IsValidForForm
+    type: Edm.Boolean
+    description: ""
+  - name: IsValidForGrid
+    type: Edm.Boolean
+    description: ""
+  - name: IsValidForRead
+    type: Edm.Boolean
+    description: "Whether the value can be retrieved."
+  - name: IsValidForUpdate
+    type: Edm.Boolean
+    description: "Whether the value can be updated."
+  - name: LinkedAttributeId
+    type: Edm.Guid
+    description: "The id of the attribute that is linked between appointments and recurring appointments."
+  - name: LogicalName
+    type: Edm.String
+    description: "The logical name for the attribute."
+  - name: MetadataId
+    type: Edm.Guid
+    inherited_from: Microsoft.Dynamics.CRM.MetadataBase
+    description: "A unique identifier for the metadata item."
+  - name: RequiredLevel
+    type: Microsoft.Dynamics.CRM.AttributeRequiredLevelManagedProperty
+    description: "The property that determines the data entry requirement level enforced for the attribute."
+  - name: SchemaName
+    type: Edm.String
+    description: "The schema name for the attribute."
+  - name: SourceType
+    type: Edm.Int32
+    description: "A value that indicates the source type for a calculated or rollup attribute."
+# This entity has no single-valued navigation properties.
+# This entity has no collection-valued navigation properties
+# No functions or actions are bound to this entity.
+derived_types:
+  description: The following entity types inherit from the AttributeMetadata entity type.
+  derived_type_items:
+   - Microsoft.Dynamics.CRM.BigIntAttributeMetadata
+   - Microsoft.Dynamics.CRM.BooleanAttributeMetadata
+   - Microsoft.Dynamics.CRM.DateTimeAttributeMetadata
+   - Microsoft.Dynamics.CRM.DecimalAttributeMetadata
+   - Microsoft.Dynamics.CRM.DoubleAttributeMetadata
+   - Microsoft.Dynamics.CRM.EnumAttributeMetadata
+   - Microsoft.Dynamics.CRM.ImageAttributeMetadata
+   - Microsoft.Dynamics.CRM.IntegerAttributeMetadata
+   - Microsoft.Dynamics.CRM.LookupAttributeMetadata
+   - Microsoft.Dynamics.CRM.ManagedPropertyAttributeMetadata
+   - Microsoft.Dynamics.CRM.MemoAttributeMetadata
+   - Microsoft.Dynamics.CRM.MoneyAttributeMetadata
+   - Microsoft.Dynamics.CRM.StringAttributeMetadata
+   - Microsoft.Dynamics.CRM.UniqueIdentifierAttributeMetadata
+usedby:
+  description: "The following use the AttributeMetadata metadata entity type."
+  usedby_items:
+  - name: Microsoft.Dynamics.CRM.EntityMetadata
+    used_as: NavigationProperty
+# There are no remarks for this metadata entity.
+href_see_also:
+- text: "Use the Microsoft Dynamics CRM Web API"
+  href: "https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api"
+xref_see_also:
+- Microsoft.Dynamics.CRM.EntityTypeIndex
+- Microsoft.Dynamics.CRM.ActionIndex
+- Microsoft.Dynamics.CRM.FunctionIndex
+- Microsoft.Dynamics.CRM.QueryFunctionIndex
+- Microsoft.Dynamics.CRM.ComplexTypeIndex
+- Microsoft.Dynamics.CRM.EnumTypeIndex
+- Microsoft.Dynamics.CRM.MetadataEntityTypeIndex
+- Microsoft.Dynamics.CRM.SolutionIndex

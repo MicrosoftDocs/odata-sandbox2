@@ -1,0 +1,58 @@
+### YamlMime:OData
+uid: Microsoft.Dynamics.CRM.CalculateRollupField
+name: "CalculateRollupField"
+type: function
+metadata:
+  title: "Microsoft Dynamics 365 Customer Engagement CalculateRollupField Function Reference | MicrosoftDocs"
+  ms.date: "2017-09-21"
+  ms.service: "crm-online"
+  ms.topic: "reference"
+  applies_to:
+  - "Dynamics 365 (online)"
+  ms.assetid: 5bcc6551-47aa-45d3-8225-9453326206f3
+  author: "jimdaly"
+  ms.author: "jdaly"
+  manager: "jdaly"
+  meta-description: "Reference information about the Dynamics 365 Customer Engagement CalculateRollupField Function."
+namespace: Microsoft.Dynamics.CRM
+header:
+  description: "Calculates the value of a rollup attribute. "
+  iscomposable: false
+# This function is not bound to any entities.
+isbound: false
+parameters:
+  description: "Parameters allow for data to be passed to the function."
+  parameter_items:
+  - name: Target
+    type: Microsoft.Dynamics.CRM.crmbaseentity
+    nullable: false
+    unicode: true
+    description: "A reference to the entity containing the rollup attribute to calculate."
+  - name: FieldName
+    type: Edm.String
+    nullable: false
+    unicode: false
+    description: "The logical name of the attribute to calculate.  "
+return_type:
+  description: "The CalculateRollupField function returns the following value."
+  type: Microsoft.Dynamics.CRM.crmbaseentity
+  iscollection: false
+  nullable: false
+  description: "Contains the response from the CalculateRollupField function."
+# This function no specific entities for this function identified.
+remarks: |
+  ## Remarks
+
+  These are some remarks for the CalculateRollupField function.
+href_see_also:
+- text: "Use the Microsoft Dynamics CRM Web API"
+  href: "https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api"
+xref_see_also:
+- Microsoft.Dynamics.CRM.EntityTypeIndex
+- Microsoft.Dynamics.CRM.ActionIndex
+- Microsoft.Dynamics.CRM.FunctionIndex
+- Microsoft.Dynamics.CRM.QueryFunctionIndex
+- Microsoft.Dynamics.CRM.ComplexTypeIndex
+- Microsoft.Dynamics.CRM.EnumTypeIndex
+- Microsoft.Dynamics.CRM.MetadataEntityTypeIndex
+- Microsoft.Dynamics.CRM.SolutionIndex

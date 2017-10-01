@@ -1,0 +1,95 @@
+### YamlMime:ODataIndex
+uid: Microsoft.Dynamics.CRM.QueryFunctionIndex
+title: "Dynamics 365 Customer Engagement Web API Query Function Reference | MicrosoftDocs"
+metadata:
+  ms.date: "2017-09-21"
+  ms.service: "crm-online"
+  ms.topic: "reference"
+  applies_to:
+    - "Dynamics 365 (online)"
+  ms.assetid: a4f5a9d6-50eb-404b-ad11-33ff562edab3
+  author: "jimdaly"
+  ms.author: "jdaly"
+  manager: "jdaly"
+description: "Query functions are functions that can be used as a filter criteria in a query. They accept parameters and return a boolean value."
+in_this_section:
+- Microsoft.Dynamics.CRM.Above
+- Microsoft.Dynamics.CRM.AboveOrEqual
+- Microsoft.Dynamics.CRM.Between
+- Microsoft.Dynamics.CRM.Contains
+- Microsoft.Dynamics.CRM.ContainValues
+- Microsoft.Dynamics.CRM.DoesNotContainValues
+- Microsoft.Dynamics.CRM.EqualBusinessId
+- Microsoft.Dynamics.CRM.EqualUserId
+- Microsoft.Dynamics.CRM.EqualUserLanguage
+- Microsoft.Dynamics.CRM.EqualUserOrUserHierarchy
+- Microsoft.Dynamics.CRM.EqualUserOrUserHierarchyAndTeams
+- Microsoft.Dynamics.CRM.EqualUserOrUserTeams
+- Microsoft.Dynamics.CRM.EqualUserTeams
+- Microsoft.Dynamics.CRM.In
+- Microsoft.Dynamics.CRM.InFiscalPeriod
+- Microsoft.Dynamics.CRM.InFiscalPeriodAndYear
+- Microsoft.Dynamics.CRM.InFiscalYear
+- Microsoft.Dynamics.CRM.InOrAfterFiscalPeriodAndYear
+- Microsoft.Dynamics.CRM.InOrBeforeFiscalPeriodAndYear
+- Microsoft.Dynamics.CRM.Last7Days
+- Microsoft.Dynamics.CRM.LastFiscalPeriod
+- Microsoft.Dynamics.CRM.LastFiscalYear
+- Microsoft.Dynamics.CRM.LastMonth
+- Microsoft.Dynamics.CRM.LastWeek
+- Microsoft.Dynamics.CRM.LastXDays
+- Microsoft.Dynamics.CRM.LastXFiscalPeriods
+- Microsoft.Dynamics.CRM.LastXFiscalYears
+- Microsoft.Dynamics.CRM.LastXHours
+- Microsoft.Dynamics.CRM.LastXMonths
+- Microsoft.Dynamics.CRM.LastXWeeks
+- Microsoft.Dynamics.CRM.LastXYears
+- Microsoft.Dynamics.CRM.LastYear
+- Microsoft.Dynamics.CRM.Next7Days
+- Microsoft.Dynamics.CRM.NextFiscalPeriod
+- Microsoft.Dynamics.CRM.NextFiscalYear
+- Microsoft.Dynamics.CRM.NextMonth
+- Microsoft.Dynamics.CRM.NextWeek
+- Microsoft.Dynamics.CRM.NextXDays
+- Microsoft.Dynamics.CRM.NextXFiscalPeriods
+- Microsoft.Dynamics.CRM.NextXFiscalYears
+- Microsoft.Dynamics.CRM.NextXHours
+- Microsoft.Dynamics.CRM.NextXMonths
+- Microsoft.Dynamics.CRM.NextXWeeks
+- Microsoft.Dynamics.CRM.NextXYears
+- Microsoft.Dynamics.CRM.NextYear
+- Microsoft.Dynamics.CRM.NotBetween
+- Microsoft.Dynamics.CRM.NotEqualBusinessId
+- Microsoft.Dynamics.CRM.NotEqualUserId
+- Microsoft.Dynamics.CRM.NotIn
+- Microsoft.Dynamics.CRM.NotUnder
+- Microsoft.Dynamics.CRM.OlderThanXDays
+- Microsoft.Dynamics.CRM.OlderThanXHours
+- Microsoft.Dynamics.CRM.OlderThanXMinutes
+- Microsoft.Dynamics.CRM.OlderThanXMonths
+- Microsoft.Dynamics.CRM.OlderThanXWeeks
+- Microsoft.Dynamics.CRM.OlderThanXYears
+- Microsoft.Dynamics.CRM.On
+- Microsoft.Dynamics.CRM.OnOrAfter
+- Microsoft.Dynamics.CRM.OnOrBefore
+- Microsoft.Dynamics.CRM.ThisFiscalPeriod
+- Microsoft.Dynamics.CRM.ThisFiscalYear
+- Microsoft.Dynamics.CRM.ThisMonth
+- Microsoft.Dynamics.CRM.ThisWeek
+- Microsoft.Dynamics.CRM.ThisYear
+- Microsoft.Dynamics.CRM.Today
+- Microsoft.Dynamics.CRM.Tomorrow
+- Microsoft.Dynamics.CRM.Under
+- Microsoft.Dynamics.CRM.UnderOrEqual
+- Microsoft.Dynamics.CRM.Yesterday
+href_see_also:
+- text: "Use the Microsoft Dynamics CRM Web API"
+  href: "https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api"
+xref_see_also:
+- Microsoft.Dynamics.CRM.EntityTypeIndex
+- Microsoft.Dynamics.CRM.ActionIndex
+- Microsoft.Dynamics.CRM.FunctionIndex
+- Microsoft.Dynamics.CRM.ComplexTypeIndex
+- Microsoft.Dynamics.CRM.EnumTypeIndex
+- Microsoft.Dynamics.CRM.MetadataEntityTypeIndex
+- Microsoft.Dynamics.CRM.SolutionIndex
