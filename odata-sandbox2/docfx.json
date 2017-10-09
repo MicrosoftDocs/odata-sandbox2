@@ -34,9 +34,9 @@
     "fileMetadata": {},
     "template": [],
     "dest": "odata-sandbox2",
-    "exportRawModel": "true",
-    "rawModelOutputFolder": "../raw",
-    "exportViewModel": "true",
-    "viewModelOutputFolder": "../viewmodel"
+    "exportRawModel": true,
+    "rawModelOutputFolder": "../_model",
+    "exportViewModel": true,
+    "viewModelOutputFolder": "../_viewmodel"
   }
 }

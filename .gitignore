@@ -1,7 +1,7 @@
 log/
 obj/
-raw/
-viewmodel/
+_model/
+_viewmodel/
 _site/
 .optemp/
 _themes*/

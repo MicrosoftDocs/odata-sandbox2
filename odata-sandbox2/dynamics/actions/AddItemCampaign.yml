@@ -16,7 +16,7 @@ metadata:
   meta-description: "Reference information about the Dynamics 365 Customer Engagement AddItemCampaign Action."
 namespace: Microsoft.Dynamics.CRM
 header:
-  description: "Adds an item to a campaign."
+  description: "Adds an item to a campaign. [example link](http://docs.microsoft.com) "
 owningsolution: Microsoft.Dynamics.CRM.System
 bound_entities:
   description: "Bound actions are invoked by appending the action name to the URI representing an entity or collection."
