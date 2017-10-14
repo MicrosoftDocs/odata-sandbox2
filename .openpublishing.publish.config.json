@@ -1,35 +1,18 @@
 {
-    "docsets_to_publish": [
-        {
-            "docset_name": "odata-sandbox2",
-            "build_source_folder": "odata-sandbox2",
-            "build_output_subfolder": "odata-sandbox2",
-            "locale": "en-us",
-            "monikers": [],
-            "moniker_ranges": [],
-            "open_to_public_contributors": true,
-            "type_mapping": {
-                "Conceptual": "Content",
-                "ODataIndex": "Content",
-                "OData": "Content"
-            },
-            "build_entry_point": "docs",
-            "template_folder": "_themes"
-        }
-    ],
-    "notification_subscribers": [],
-    "branches_to_filter": [],
-    "skip_source_output_uploading": false,
-    "need_preview_pull_request": false,
-    "contribution_branch_mappings": {},
-    "dependent_repositories": [
-        {
-          "path_to_root": "_themes",
-          "url": "https://github.com/Microsoft/templates.docs.msft",
-          "branch": "preview",
-          "branch_mapping": {}
-        }
-      ],
-    "branch_target_mapping": {},
-    "need_generate_pdf_url_template": false
+  "docsets_to_publish": [],
+  "notification_subscribers": [],
+  "branches_to_filter": [],
+  "skip_source_output_uploading": false,
+  "need_preview_pull_request": false,
+  "contribution_branch_mappings": {},
+  "dependent_repositories": [
+    {
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft",
+      "branch": "preview",
+      "branch_mapping": {}
+    }
+  ],
+  "branch_target_mapping": {},
+  "need_generate_pdf_url_template": false
 }
